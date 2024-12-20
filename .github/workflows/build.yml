@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
 env:
-  PACT_BROKER_BASE_URL: https://galwayse.pactflow.io
-  PACT_BROKER_TOKEN: 9rHjtK3ssQ-kXAC2qAZW9A
+  PACT_BROKER_BASE_URL: https://smartbear-api-hub.pactflow.io
+  PACT_BROKER_TOKEN: FqxvFCrZ4pYniKOqonf0jQ
   BASE_URL: http://localhost:5000
   GIT_COMMIT: ${{ github.sha }}
   GIT_REF: ${{ github.ref }}
